@@ -1,12 +1,13 @@
 body{
+  background-size: cover;
   margin: 0;
   padding: 0;
   background: #34495e;
 }
 .middle{
   position: relative;
-  top: 50%;
-  left: 50%;
+  top: 100%;
+  left: 100%;
   transform: translate(-50%,-50%);
 }
 .navigation{
@@ -34,17 +35,16 @@ input[name="r"]{
   visibility:hidden;
 }
 .slides{
-  width: 500%;
+  width: 300%;
   height: 100%;
   display: flex;
 }
 .slide{
   width: 20%;
-  transition: 0.6s;
 }
 .slide img{
   width: auto;
-  height: 90%;
+  height: 100%;
 }
 #r1:checked ~ .s1{
   margin-left: 0;
