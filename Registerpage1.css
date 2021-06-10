@@ -1,61 +1,62 @@
-body{
-  margin: 0;
-  padding: 0;
-  background-image: url("images/registerpageback.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: sans-serif;
+.forms-out {
+  margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
+  padding: 15px 0;
   }
-
-div.main{
-  width: 400px;
-  margin: 100px auto 0px auto;
-}
-h2{
+  
+  .forms-in {
+  width: 93%;
+  margin: 0 auto;
+  color: white;
+  padding: 15px 0;
+  }
+  
+  .forms-in div {
+  padding: 30px 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  background: #168ab8;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  }
+  
+  .forms-in h3 {
   text-align: center;
-  padding: 20px;
-  font-family: sans-serif;
-}
-div.register{
-  background-color: rgba(0,0,0,0.5);
-  width: 100%;
-  font-size: 18px;
-  border-radius: 10px;
-  border:1px solid rgba(255,255,255,0.3);
-  box-shadow: 2px 2px 15px;
-  rgba(0,0,0,0.3);
-  color: #fff;
-}
-form#register{
-  margin: 40px;
-}
-label{
-  font-family: sans-serif;
-  font-size: 18px;
-  font-style: italic;
-}
-input#name{
-  width: 300px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  outline: 0;
-  padding: 7px;
-  background-color: #fff;
-  box-shadow: inset 1px 1px 5px;
-  rgba(0,0,0,0.3);
-}
-label,span,h2{
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
-}
-div.reg1 a{
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  padding: 5px 20px;
-  border: 2px solid transparent;
-  transition: 0.6s ease;
   }
-  div.reg1 a:hover{
-    background-color: #fff;
-    color:#000 ;
+  
+  .forms-in input {
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  
+  .forms-in button {
+  border: none;
+  padding: 7px 20px;
+  background: #e8f8ff;
+  color: #168ab8;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  }
+  
+  .forms-in button:hover {
+  opacity: 0.7;
+  }
+  
+  .hide {
+  display: none;
+  }
+  
+  #forgot-password {
+  text-align: center;
+  font-size: 13                                                               px;
+  cursor: pointer;
+  }
+  
+  #forgot-password:hover {
+  opacity: 0.7;
   }

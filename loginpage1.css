@@ -1,77 +1,62 @@
-body{
-  margin: 0;
-  padding: 0;
-  background-image: url("images/loginback.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: sans-serif;
-}
-.loginbox{
-  width: 320px;
-  height: 420px;
-  background: #000;
-  color: #fff;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  box-sizing: border-box;
-  padding: 70px 30px;
-}
-.avatar{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
-}
-h1{
-  margin: 0;
-  padding: 0 0 20px;
+.forms-out {
+  margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
+  padding: 15px 0;
+  }
+  
+  .forms-in {
+  width: 93%;
+  margin: 0 auto;
+  color: white;
+  padding: 15px 0;
+  }
+  
+  .forms-in div {
+  padding: 30px 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  background: #168ab8;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  }
+  
+  .forms-in h3 {
   text-align: center;
-  font-size: 22px;
-}
-.loginbox p{
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-.loginbox input{
+  }
+  
+  .forms-in input {
+  border: none;
   width: 100%;
-  margin-bottom: 20px;
-}
-.loginbox input[type="text"], input[typt="password"]
-{
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  
+  .forms-in button {
   border: none;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  outline: none;
-  height: 40px;
-  color: #fff;
-  font-size: 16px;
-}
-.loginbox input[type="submit"]
-{
-  border: none;
-  outline: none;
-  height: 40px;
-  background: #4dc1ff;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 20px;
-}
-.loginbox input[type="submit"]:hover{
+  padding: 7px 20px;
+  background: #e8f8ff;
+  color: #168ab8;
+  border-radius: 4px;
   cursor: pointer;
-  background: #055782;
-  color: #000;
-}
-.loginbox a{
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 20px;
-  color: darkgrey;
-}
-.loginbox a:hover{
-  color: #38d1d6;
-}
+  font-weight: bold;
+  }
+  
+  .forms-in button:hover {
+  opacity: 0.7;
+  }
+  
+  .hide {
+  display: none;
+  }
+  
+  #forgot-password {
+  text-align: center;
+  font-size: 13                                                               px;
+  cursor: pointer;
+  }
+  
+  #forgot-password:hover {
+  opacity: 0.7;
+  }
