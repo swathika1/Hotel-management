@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<style>
+  body {
+    background-image: url('images/miniback.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+</style>
   <head>
     <meta charset="utf-8">
-    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width",initial-scale=1.0">
+    <title>package</title>
     <link rel="stylesheet" href="gallery1.css">
   </head>
   <body>
-    <div class="slides">
-      <input type="radio" name="r" id="r1" checked>
-      <input type="radio" name="r" id="r2" checked>
-      <input type="radio" name="r" id="r3" checked>
-      <input type="radio" name="r" id="r4" checked>
-      <input type="radio" name="r" id="r5" checked>
-      <input type="radio" name="r" id="r6" checked>
+    <div class="slider">
+      <div class="images">
+        <input type="radio" name="slide" id="img1" checked>
+        <input type="radio" name="slide" id="img2"  checked>
+        <input type="radio" name="slide" id="img3"  checked>
+        <input type="radio" name="slide" id="img4"  checked>
+        <input type="radio" name="slide" id="img5"  checked>
+        <input type="radio" name="slide" id="img6"  checked>
 
-      <div class="slide s1">
-        <img src="images/photo1.jpeg" alt="">
+        <img src="file:///C:/Users/admin/Desktop/slide1.png" class="m1" alt="">
+        <img src="file:///C:/Users/admin/Desktop/slide2.png"  class="m2" alt="">
+        <img src="file:///C:/Users/admin/Desktop/slide3.png"  class="m3" alt="">
+        <img src="file:///C:/Users/admin/Desktop/photo4.jpeg" class="m4"  alt="">
+        <img src="file:///C:/Users/admin/Desktop/slide5.png" class="m5"  alt="">
+        <img src="file:///C:/Users/admin/Desktop/slide6.png" class="m6" alt="">
+
+      </div>
+      <div class="dots">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+        <label for="img4"></label>
+        <label for="img5"></label>
+        <label for="img6"></label>
       </div>
 
-      <div class="slide">
-        <img src="images/photo2.jpeg" alt="">
-      </div>
-
-      <div class="slide">
-        <img src="images/photot3.jpeg" alt="">
-      </div>
-
-      <div class="slide">
-        <img src="images/photo5.jpeg" alt="">
-      </div>
-
-      <div class="slide">
-        <img src="images/photo4.jpeg" alt="">
-      </div>
-
-      <div class="slide">
-        <img src="images/photo6.jpeg" alt="">
+      <div class="button">
+        <a href="Loginpage.html" class="btn">Book</a>
       </div>
 
     </div>
-
-   <div class="navigation">
-     <label for="r1" class="bar"></label>
-     <label for="r2" class="bar"></label>
-     <label for="r3" class="bar"></label>
-     <label for="r4" class="bar"></label>
-     <label for="r5" class="bar"></label>
-     <label for="r6" class="bar"></label>
-   </div>
-
-   <div class="button">
-     <a href="Loginpage.html" class="btn">Book</a>
-   </div>
-
   </body>
 </html>
